@@ -295,3 +295,44 @@ body{
 }
 
 
+
+
+/* ========== PAGE FADE IN ANIMATION ========== */
+body{
+  opacity: 0;
+  animation: pageFade 0.8s ease-in-out forwards;
+}
+
+@keyframes pageFade{
+  from{
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+body{
+  opacity: 0;
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+body.loaded{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+#scroll-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background: #4caf50;
+  width: 0%;
+  z-index: 9999;
+}
+

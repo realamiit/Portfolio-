@@ -1,76 +1,88 @@
-Amit Gupta Dynamic Portfolio
-· html
-
-
 <!-- ===================== index.html (Home) ===================== -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amit Gupta | Web Developer</title>
- <link rel="stylesheet" href="common.css">
-<link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="home.css">
 
 </head>
+
 <body>
-<header class="navbar">
+
+
+  <div id="scroll-bar"></div>
+
+
+  <header class="navbar">
   <h1 class="logo">Amit Gupta</h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="skills.html">Skills</a>
-    <a href="projects.html">Projects</a>
-    <a href="services.html">Services</a>
-    <a href="resume.html">Resume</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+
+  <div class="menu-toggle" id="menu-toggle">
+    ☰
+  </div>
+
+  <nav id="nav-menu">
+  <a href="home.html" class="nav-link">Home</a>
+  <a href="About.html" class="nav-link">About</a>
+  <a href="Skills.html" class="nav-link">Skills</a>
+  <a href="Projects.html" class="nav-link">Projects</a>
+  <a href="Contact.html" class="nav-link">Contact</a>
+</nav>
+
+
+  <button id="theme-toggle" class="theme-btn">🌙</button>
 </header>
 
 
-<section class="hero">
-  <div class="hero-text">
-    <h2>Hello, I'm</h2>
-    <h1>Amit Gupta</h1>
-    <p>Web Developer | Frontend Enthusiast</p>
-    <a href="projects.html" class="btn">View Projects</a>
-  </div>
-  <img src="amitphoto.jpg" alt="Amit Gupta" class="hero-img">
-</section>
-
-
-<footer class="footer">
-  <div class="footer-container">
-
-    <!-- About -->
-    <div class="footer-box">
-      <h3>Amit Gupta</h3>
-      <p>Web Developer passionate about building responsive and user-friendly websites.</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hello, I'm</h2>
+      <h1>Amit Gupta</h1>
+      <p>Web Developer | Frontend Enthusiast</p>
+      <a href="Projects.html" class="btn">View Projects</a>
     </div>
+    <img src="amitphoto.jpg" alt="Amit Gupta" class="hero-img">
+  </section>
 
-    <!-- Contact -->
-    <div class="footer-box">
-      <h3>Contact Me</h3>
-      <p>Email: <a href="mailto:amitgupta@email.com">amitgupta@email.com</a></p>
-      <p>Phone: <a href="tel:8840809053">+91 8840809053</a></p>
-    </div>
 
-    <!-- Social Links -->
-    <div class="footer-box">
-      <h3>Follow Me</h3>
-      <div class="social-links">
-        <a href="https://github.com/realamiit" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/realamiit" target="_blank">LinkedIn</a>
-        <a href="#" target="_blank">Instagram</a>
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- About -->
+      <div class="footer-box">
+        <h3>Amit Gupta</h3>
+        <p>Web Developer passionate about building responsive and user-friendly websites.</p>
       </div>
+
+      <!-- Contact -->
+      <div class="footer-box">
+        <h3>Contact Me</h3>
+        <p>Email: <a href="mailto:amitgupta@email.com">amitgupta@email.com</a></p>
+        <p>Phone: <a href="tel:8840809053">+91 8840809053</a></p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="footer-box">
+        <h3>Follow Me</h3>
+        <div class="social-links">
+          <a href="https://github.com/realamiit" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/realamiit" target="_blank">LinkedIn</a>
+          <a href="#" target="_blank">Instagram</a>
+        </div>
+      </div>
+
     </div>
 
-  </div>
+    <div class="footer-bottom">
+      <p>© 2025 Amit Gupta | All Rights Reserved</p>
+    </div>
+  </footer>
 
-  <div class="footer-bottom">
-    <p>© 2025 Amit Gupta | All Rights Reserved</p>
-  </div>
-</footer>
+  <script src="them.js"></script>
 
 </body>
+
 </html>
